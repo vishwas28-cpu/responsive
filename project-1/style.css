@@ -229,23 +229,38 @@ main{
     justify-content: space-between;
 }
 
-@media (max-width:1200px) {
+@media (max-width:1400px) {
     .section1 .left .h1{
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 
     
 }
 @media (max-width: 800px) {
+    main{
+    padding-top: 50px;
+}
+
+     .section1{
+        flex-direction: column-reverse;
+        padding: 15px 4vw;
+    }
+    .section1.left{
+        width: 100%;
+        margin-top: 30px;
+    }
     .section .left h1{
         font-size: 33px;
     }
-    .section1{
-        flex-direction: column-reverse;
-    }
+    .section1 .right .right-in{
+    width: 100%;
+    border-radius: 8px;
+}
+
+   
 }
 @media (max-width: 600px) {
     .section1{
-        font-size: 6vw;   
+        font-size: 5vw;   
      }
 }

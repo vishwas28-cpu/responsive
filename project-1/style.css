@@ -237,10 +237,6 @@ main{
     
 }
 @media (max-width: 800px) {
-    main{
-    padding-top: 80px;
-}
-
      .section1{
         flex-direction: column-reverse;
         padding: 15px 4vw;

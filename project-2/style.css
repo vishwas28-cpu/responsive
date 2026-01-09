@@ -11,38 +11,3 @@ justify-content: center;
 }
 
 
-.container{
-    
-    background-color: lightblue;
-    display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 180px 180px 180px;
-    gap: 1em;
-    grid-template-areas: "box1 box2 box2"
-                        "box1 box3 box4 "
-                        "box5 box5 box6"   ;
-}
-.box1{
-    background-color: yellow;
-    grid-area: box1;
-}
-.box2{
- background-color: green;
- grid-area: box2;
-}
-.box3{
-  background-color: pink;  
-  grid-area: box3;
-}
-.box4{
-    background-color: purple;
-    grid-area: box4;
-}
-.box5{
-    background-color: brown;
-    grid-area: box5;
-}
-.box6{
-    background-color: orange;
-    grid-area: box6;
-}

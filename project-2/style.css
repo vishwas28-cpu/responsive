@@ -3,9 +3,17 @@ margin:0%;
 padding:0%;
 box-sizing: border-box;
 }
-
+html,body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: #111;3
+}
 
 .container{
+width: 90%;
+max-width: 1200px;
 
 }
 .box1{

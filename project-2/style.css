@@ -1,0 +1,10 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+font-family: arial, sans-serif;
+}
+html,body{
+padding: 40px;
+background: radial-gradient(circle at top, #222, #000);
+}
